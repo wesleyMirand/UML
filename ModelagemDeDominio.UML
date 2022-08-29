@@ -1,0 +1,17 @@
+ A "Modelagem de Dominio" é composta por (Bussines Modelling, Requirements, Analysis & Design). Um exemplo para se entender é o "Sistema de Padaria" o 
+dominio do problema é "Padaria". O modelo de dominio é composto por oque descreve a "Entidade" e as relações entre elas. Um grande exemplo é um "Sistema
+de venda" que faz o registro e a "Nota Fiscal" tem o numero do pedido com a data, item, preço, quantidade, desconto, subtotal e total no final do preço.
+ 
+exemplo:
+
+
+|                       Moveis Ajax                                  |
+|Pedido Numero  | 1001                                               |
+|Data           | 25/10/2022                                         |
+|--------------------------------------------------------------------|
+|                       Nota Fiscal                                  |
+|                   Destalhes do Pedido                              |
+|--------------------------------------------------------------------|
+|Produto       | Descrição   | Preço   | Quantidae | Desconto|  Total| 
+|1011          | cadeira     | 400     | 4         | 0%      |  800  |
+|total: 800                                                          |
