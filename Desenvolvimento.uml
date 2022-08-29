@@ -1,0 +1,17 @@
+ O desenvolvimento de um "Software", é divido em quatro fases que são : CONCEPÇÂO | ELABORAÇÃO | CONSTRUÇÃO | TRANSIÇÃO.
+
+ A "Concepção" concede a fase de início do Software e a "Elaboração" vem depois definindo a arquitetura com as principais decisão para iniciar o projeto com
+desenvolvimento. Logo depois vem a "Contrução" com o sistema ja arquietado, as equipes de desenvolvimento irão começar a testar. E por fim vem a "Transição"
+onde o "software" vai ser homologado, autorizado e implantado.
+
+ Ao longo do desenvolvimento do "Software", há uma lista que vai fazer checagem da evolução e do andamento de cada equipe, ela é chamada de Disciplines.
+   
+                                      Lista Disciplines
+ 1.Business Modelling(Modelagem de Negócios)
+ 2.Requirements(Requisitos)
+ 3.Analysis & Design(Analises e Designer)
+ 4.Implementation(Implementação)
+ 5.Test(Teste)
+ 6.Configuration & Chance Management(Configuração e Gestão de Mudança)
+ 7.Project Managemente(Projeto de Gestaão)
+ 8.Environmente(Ambiente)
