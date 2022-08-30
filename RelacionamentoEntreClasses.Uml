@@ -1,0 +1,16 @@
+Um relacionamento é uma conexão entre itens. Existem varios tipos:
+
+1-Dependência 2-Associação  3-Agregação   4-Composição    5-Generalização
+
+Cada um tem relancionamento^ grafico.
+
+-Relacionamento de Dependencia:
+Dependencia fraca, vincula transiente, ilustra classe, usa Informçoes e Servicoes de outra classe, momento depende dela.
+
+Tipo "Classe A depende da Classe B".
+
+|carro| _______> |roda|
+|-----|          |----|
+
+Carro depende da roda funcionar corretamente, mais um pode existir sem o outro.
+
