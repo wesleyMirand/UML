@@ -1,0 +1,6 @@
+Objeto -> Classe: Pessoa
+          ______________
+              |-> Atributos: Nome_ Wesley String / Idade_ 24anos
+                  Altura_ 1.78       / Peso_ 70kgs
+                  
+                  
