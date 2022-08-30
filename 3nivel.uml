@@ -1,0 +1,34 @@
+Nivel Lògico & Design.
+Conhecido pela Polemica, que até hoje assusta o mercado.
+Exemplo: 
+
+
+
+ Modelo Relacional estilo Textual, Descreve as Tabela do Sistema, Fundamentos de Banco de Dados:
+ 
+ 
+  Pedido (Id, Data)
+  Produto (Id, Descrição, Preço)
+
+Item Pedido(Id Pedido, Id Produto, Quantida, Desconto)
+  Id_Pedido References Pedido (Id)
+  Id-Produto References Produto(Id)
+  
+  
+  
+  
+--------------------------OU------------------------------
+
+
+
+ Chave Primária                                                             Chave Estrangeira                          Tabela                       
+        |                                                                            |                                    |
+| |--| Pedido        |                                                    |    *Item Pedido      |            |      |--| Produto         |
+----------------------                                                    ------------------------            -----------------------------
+| ! Id Int (11)      |                                                    | !Pedido _ Id Int(11) |            | ! Id Int (11)             | 
+| # Data  Date       |<-------------------------------------------------->| !Produto_ Id Int(11) |<---------->| # Descrição Var Char(255) |   
+----------------------                                                    | #Quantidade Int (11) |            | # Preço Float             |
+                                                                          | #Desconto Float      |            -----------------------------
+                                                                          ------------------------
+                                          
+                                                                   
