@@ -1,0 +1,8 @@
+Modelo Nivel Conceitual de Analise(Sistema).
+Exemplo:                                     ___O>Quantidade
+          _______                           |                  ________
+Data O---|       |      (o,n)            ^  |       (1,n)      |       |_____>@id
+         |Pedido |  -------------- <  Contém   >---------------|Produto|_____>ODescrição
+ ID  @---|       |                      \/  |                  |       |_____>Preço
+         _________                          |                  ________
+                                            ___O>Desconto
