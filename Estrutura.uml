@@ -1,0 +1,8 @@
+Classes E Objetivo
+
+-> Classe é a estrutura que abstrai o conjunto de objetos, com caracteres similiares. Ela defini o comportamento dos objetos, com metódos e estados, atráves
+de atributos.
+   É a forma de definir um tipo de dado "UML", lingaguem orientada a objetos, ela se forma por dados e comportamento. Para definir os dados, é utilizado 
+   método.
+   
+   Exemplo Banco de dados de uma padaria: 
