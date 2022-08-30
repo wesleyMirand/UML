@@ -1,0 +1,33 @@
+Analise Conceitual & Negócio.
+Exemplo:
+
+  O  <1--------1*>  O  <0*...-------1> O <1*---------1> O
+pedido     |     Item Pedido     |   Produto   |    Documento de Vistória
+   |                   |                |                       |
+   |                   |              Cada item               produto passa por vistória
+   |            Itens do Pedido.       tem um                  até ser gerado o Documento
+aqui se         Variação de            produto.                 de Vistória.
+encontra         Diagramas de 
+o pedido.         Classe, mostra
+                  como as entidades
+                   se relacionam.
+
+
+--------------------------------------^--------------------------------------------------------------
+                                      |
+                      Mesmo Modelo De Dominio Porém Detalhado
+     1.caminho                                                                2.caminho
+|      Pedido        |                                                    |        Produto       |
+----------------------                                                    ------------------------
+|-<<oid>> Id Integer |-Pedidos                                   Produtos-|-<<void>> id Intenger |
+|-Data : Data        | --------------------|------------------------------|-Descrição: String    |      
+----------------------                     |                              |-Preço:   Double      |
+|+ValorTotal():Double|                     |                              ------------------------
+                                           |                              |                      |
+                                           |3.caminho no meio dos dois
+                                   |    Item Pedido     |
+                                   ----------------------
+                                   |-Quantidae: Integer |      
+                                   |-Desconto : Double  |
+                                   ----------------------
+                                   |+SubTotal(): Double |                                         
