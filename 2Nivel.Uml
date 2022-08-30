@@ -6,3 +6,20 @@ Data O---|       |      (o,n)            ^  |       (1,n)      |       |_____>@i
  ID  @---|       |                      \/  |                  |       |_____>Preço
          _________                          |                  ________
                                             ___O>Desconto
+
+Ou um modelo melhor que é o mesmo porem em UML:
+
+|      Pedido        |                                                    |        Produto       |
+----------------------                                                    ------------------------
+|-<<oid>> Id Integer |                                                    |-<<void>> id Intenger |
+|-Data : Data        | --------------------|------------------------------|-Descrição: String    |      
+----------------------                     |                              |-Preço:   Double      |
+|+ValorTotal():Double|                     |                              ------------------------
+                                           |                              |                      |
+                                           |
+                                   |    Item Pedido     |
+                                   ----------------------
+                                   |-Quantidae: Integer |      
+                                   |-Desconto : Double  |
+                                   ----------------------
+                                   |+SubTotal(): Double |                                         
