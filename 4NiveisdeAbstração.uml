@@ -1,0 +1,27 @@
+ No "Modelo de Dominio" há varios niveis, porém os mais importante são quatro. A "Abstração" se baseia no quanto, você está escondendo os detalhes.
+
+|1.Nivel                |Respósavel          |Objetivo  
+|                       |                    |
+|Analise conceitual ou  |Analista de Negócio |Descreve as entidades do Domínio,
+|de Negócio             |                    |(do negócio) e sua interação independente
+|                       |                    |do sistema.
+|                       |                    |
+|2.Nivel                |Respósavel          |Objetivo
+|                       |                    |
+|Conceitual ou Analise  |Analista de Sistema |Descreve as entidades de dominio(do Sistema)
+|de Sistema             |                    |e suas interações:independente de "Paradigma
+|                       |                    |e Tecnologia".
+|                       |                    |
+|3.Nivel                |Respósavel          |Objetivo
+|                       |                    |
+|Lógico ou Design       |Projetista          |Descreve as entidades de dominio(do Sistema)
+|de Sistema             |                    |e suas interações: 
+|                       |                    |.Preso a um Paradigma(ex:Relacional, Orientado a Objetos).
+|                       |                    |.Independente de Tecnologia.
+|                       |                    |
+|4.Nivel                |Respósavel          |Objetivo
+|                       |                    |
+|Físico ou              |Implementador       |Descreve as entidades de dominio(do Sistema)
+|de Implementação       |                    |e suas interações: 
+|                       |                    |.Preso a uma Tecnologia(ex:Java, C#, Php, Python, Ruby, Nodejs).
+|                       |                    |
