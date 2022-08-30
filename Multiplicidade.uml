@@ -1,0 +1,29 @@
+Multiplicidade
+
+A multiplicidade é uma forma de utilizar o numero maximo e o numero minimo de objeto envolvido na associação, cado lado e pode especificar o nivel de depen-
+dencia dentre os objetos.
+
+
+|Multiplicida | Significado
+| 0.1         | Minimo 0 e 1 Maximo
+|             | Indica que nao é obrigado a relacionar
+_______________
+| 1.1         | Um e Somente Um
+|             | Um objeto de classe se relaciona com a outra classe
+|||||||||||||||
+
+Multiplicidade
+  exempo:
+  
+  | Pessoa |                             | Revista |
+           |          assina             |
+           |____________________________>|
+           |0                           *|
+            1                           1
+            1                           *
+            
+ Relacionamento de associação mais doque a outra dependencia, indica classe e manta uma referencia a outra ao longo do tempo. As associações podem se conect-
+ ar com mais  classes.
+ 
+    A-> reresenta nove habilidades, indo o sentido em que as informações, são transmitidas entre os objetos.
+    
