@@ -3,4 +3,14 @@ Objeto -> Classe: Pessoa
               |-> Atributos: Nome_ Wesley String / Idade_ 24anos
                   Altura_ 1.78       / Peso_ 70kgs
                   
-                  
+                                   |    Pessoa           |
+                                   ----------------------
+                                   | - nome : String 250 |
+                                   |- sobrenome: string  |
+                                   |- Data : Date        |
+                                   ----------------------
+                                   |+calcula(datanasc):int| 
+                                   |+estuda( ): void      |
+                                
+Visibilidade dos membros atribuidos edas operação usando modificadores de acesso:
+( + )publico,( # )protegido,( - )Privado, ( ~ ) pacote, ( / ) derivado
