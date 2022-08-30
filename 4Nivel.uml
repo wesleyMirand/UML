@@ -4,3 +4,18 @@ Exemplo:
 
 Preso a : Orientação a Obejtos/Relacional(diagrama de classes)
 
+     1.caminho                                                                2.caminho
+|      Pedido        |                                                    |        Produto       |
+----------------------                                                    ------------------------
+|-<<oid>> Id Integer |-Pedidos                                   Produtos-|-<<void>> id Intenger |
+|-Data : Data        | --------------------|------------------------------|-Descrição: String    |      
+----------------------                     |                              |-Preço:   Double      |
+|+ValorTotal():Double|                     |                              ------------------------
+                                           |                              |                      |
+                                           |3.caminho no meio dos dois
+                                   |    Item Pedido     |
+                                   ----------------------
+                                   |-Quantidae: Integer |      
+                                   |-Desconto : Double  |
+                                   ----------------------
+                                   |+SubTotal(): Double |     
