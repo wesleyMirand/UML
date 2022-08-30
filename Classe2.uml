@@ -1,0 +1,14 @@
+-Categorias de Diagramas 
+-Relacionamento entre as Classes
+
+ Classe é a representação de um item do mundo real, fisico ou abstrato com um tipo de dado personalizado.
+ 
+ Atributos são usados para armazenar os dadosde uma classe(informaçoes sobre aquela classe, item do mundo real que está no sistema.
+ 
+ Exemplo:
+ 
+ Classe:Pessoal / Atributos: Altura, Nome, Idade
+ 
+ Método: Andar, Comer, Falar.
+ 
+ 
