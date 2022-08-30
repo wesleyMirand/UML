@@ -6,3 +6,16 @@ de atributos.
    método.
    
    Exemplo Banco de dados de uma padaria: 
+   ESSE EXEMPLO NÃO DESENVOLVE!
+                                   |    USUARIO         |-> NOME DA CLASSE
+                                   ----------------------
+                                   |NOME : STRING       |      
+                                   |lOGIN: sTRING       |-----> ATRIBUTOS
+                                   |SENHA: STRING       |    
+                                   |GRUPOS: STRING      |
+                                   ----------------------
+                                   | EXCLUIR ( )        |--> OPERAÇÕES      
+                                   | ALTERAR ( )        |
+                                   | RECUPERAR ( )      |    
+                                   ----------------------
+                                   | CRIAR ( )          |
