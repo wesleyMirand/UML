@@ -1,0 +1,18 @@
+
+
+
+
+
+
+Input Start O----(aula ti)-----<vai ter aula>----sim----(vou feliz)-----O saida END output
+                    ^                 |
+                    |                 |
+                    |                 |-----nao-----(vou chorar)--|
+                    |                                             |
+                    |---------------------------------------------|
+                    
+                    cada ação tem sim ou não
+                                   |      |
+                         faz uma coisa    faz outra
+                         
+Para cada software, existe um tomada de decisão, o usúario precisa saber que o processo finaliza.
