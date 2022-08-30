@@ -1,0 +1,30 @@
+1.Oque é necessario fazer(Tempo é $)
+2.Oque os usúarios querem(Tempo é $)
+3.Oque os usúarios pedem(Tempo é $)
+4.Oque os Desenvolvedores entenderam(Tempo é $)
+5.Oque acaba sendo feito
+6.ENTRADA -> PROCESSAMENTO -> SAÍDA(RESULTADO)
+
+       REQUISITOS
+           |
+         |ENG.|
+       |PROJECT.|
+ pessoas----------custos
+            |
+            |----> um depende do outro, quanto mais requito + software vai ser utilizado.
+            
+            
+            |  \     /
+            |    \ /
+tempo do>   |   /  \        /
+     dev    |  /são  \     / 
+            | />ilu   \   /
+            |/_________\_/_________
+                        ^-Quantidade de problemas p/resolver
+                        
+                        
+                        
+                         + Ferramenta. Mão de obra. Infraestrutura
+                         _________________________________________
+                          IOS                Energia
+                          Android                      Internet
