@@ -1,0 +1,17 @@
+Poder pegar projeto ja construído e fazer manuntenção. E também pode Desenvolver.
+Exemplo:
+
+                                   |    uma classe      |
+                                   ----------------------
+                                   | -atributo privado  |- nao vai ser visto
+                                   | +atributo publico  |- publico
+                                   |# atributo protegido|-senha cartao
+                                   |~ atributo de pacote|
+                                   ----------------------
+                                   | + operação publico | - deleta,exclui,cria estrutura de desenvolvimento
+                                   |# opereção protegida|
+                                   |~ operacao pacote   |
+                                   |- operacao privada  |
+                                   
+                                   
+                                   Ao receber o desenho, cria coluna no Banco De Dados e Desenvolve.
