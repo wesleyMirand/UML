@@ -7,7 +7,7 @@ Data O---|       |      (o,n)            ^  |       (1,n)      |       |_____>@i
          _________                          |                  ________
                                             ___O>Desconto
 
-Ou um modelo melhor que é o mesmo porem em UML:
+Ou um modelo melhor modelo que é o mesmo porem em UML com notação diferente:
 
 |      Pedido        |                                                    |        Produto       |
 ----------------------                                                    ------------------------
