@@ -1,0 +1,14 @@
+Um dos diagramas mais conhecidos :
+
+(Consulta Lista de Membros) ---------
+                                    |> ( <<abstract>> )
+                                       ( Consulta     )
+                   (Consulta Termos----|^
+    |---------------^|
+Usuário
+Anonimo
+  :)
+    |---------------> Consulta Lista De Referencia
+    
+    
+    (TUDO NO VERBO INFINITO AÇÃO)
