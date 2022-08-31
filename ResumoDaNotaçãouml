@@ -1,0 +1,24 @@
+
+Associação _____________>
+
+
+                         ^
+Agregação _____________<   >
+                         .
+                         
+                         
+                       -^-  
+Composição ___________<--->
+                       -.-
+                       
+   
+Herança _____________;->
+
+
+
+Dependencia -- -- -->
+
+
+O nome das classes deve ser significativo, descrevendo um aspecto real do sistema.
+Os relacionamentos entre os elementos identificam antes de criar, o diagrama.
+Sempre que necessário, acrescente notações, para ajudar a deifinir aspectos das classes e seus relacionamento.
