@@ -1,0 +1,18 @@
+                                                            Classe Associativa
+                                                            
+                               São produzidas, quando ocorrem açõs com multiplicidade(*), em todas as extremidades.
+                               No Geral, existem atributos de associação que pode ser armazenada em uma das classes
+                               envolvidas.
+                               
+                               
+                               exemplo:
+                               
+                               
+                               
+                               |Ator           |
+                               |NomeAtor:String|___________________|_________________________|FIlme             |
+                               |               |1*                 |                      1.*|tituloFilme:String|
+                                                                   |                         |-genero:string    |
+                                                                   |
+                                                               |Atuação          |
+                                                               |-papelAtor:String|
