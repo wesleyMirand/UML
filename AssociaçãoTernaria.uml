@@ -1,0 +1,14 @@
+                                                             AssociaçãoTernaria 
+                                                           
+                                                           
+                                 A Associação conecta ate três classes. Um losango indica o ponto de convergência
+                                 na conexão das classes envolvida. 
+                                 
+                                 |Professor|           Luana         ^      Possui           |turma|
+                                 |---------|_______________________<   >_____________________|-----|
+                                 |---------|           1..*          |       1..*            |-----|
+                                                                     | 
+                                                                     |  Utiliza
+                                                                     |  1..*
+                                                                  |Sala|
+                                                                  |----|
