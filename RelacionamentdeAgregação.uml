@@ -1,0 +1,15 @@
+                                                    Relacionamento de Agregação
+                                              
+                                O "Relacionamento de Agregação" é mais especifico que a "Associção Ternária", uma clase é um contenexo 
+                                de coleção outras classes. As classes contidas, não precisam de conteiner, e assim que destruido, as
+                                classes iram continuar existindo.
+                                
+                                exemplo:
+                                
+                                                  ^
+                               |Departamento|   <   >______________|Instrutor|
+                               |------------|1.*  .               1|---------|
+                               
+                                 ^
+                               <    >___________   o simbolo de relacionamento é um diamante vazado.
+                                 .
