@@ -1,0 +1,17 @@
+                                                         Relacionamento de Generalização          
+                                                        
+                                      Ele relaciona os itens itens gerais(superclasses; classes-mãe) e tipos de itens
+                                      mais especifico(superclasses; classes-filhos). Representa herança entre classes.
+                                      
+                                      Exemplo:
+                                      
+                                                       Tipo"Classe A é um tipo de classe B" 
+                                                       
+                                                       
+                                             |animal|       <-----------      |peixe|
+                                             |------|                         |-----|
+                                             
+                                      A classe "filha" herda propriedades da classe mãe, principalmentes atributos e
+                                      operação até poder possuir seus prórios.
+                                      
+                                      O triangulo sempre aponta, do mais especifico para o Geral.
