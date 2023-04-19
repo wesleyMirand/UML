@@ -1,0 +1,31 @@
+                                           |      Projeto            |
+                                           ___________________________
+                                           -id: int 
+                                           -nome: string
+                                           -cliente: string
+                                           -data_inicio: date
+                                           -date_fim: date 
+                                           __________________________
+                                           |         *|n              |
+                                           |          |               |
+                      |Projeto Consultoria|<          |                >|Projeto Desenvolvimento|
+                      _____________________           |                 ________________________
+                      -id: int                        |g                 id: int
+                      -nome: string                   |e                 nome: string
+                      -data_inicio: date              |r                 date_in: date
+                      -data_fim:date                  |e                 date_f: date
+                      ____________________            |n                 ________________________
+                                                      |t
+                                                      |e
+                                                      |
+                                                     *|>| Consulto |
+                                                         ____________
+                                                         -id: int
+                                                         -name: string
+                                                         -tipo: string
+                                                         ____________
+                                                         |           | 
+                                                         |           | 
+                                        |        clt     |<          >|       PJ         |
+                                        |  -salario:float|            |-valor_hora: float|
+                                        |-beneficio:string|           |-cnpj: string     |
