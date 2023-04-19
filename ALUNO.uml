@@ -1,0 +1,35 @@
+                                                | Pessoa |
+                                                -cpf: int
+                                                -nome: string
+                                                -email: string
+                                                -tel: int
+                                                ______________
+                                                +getnome: string
+                                                +getcpf:  int
+                                                +setemail: string
+                                                +settel: int
+                                                _______________
+                                                      |
+                                                      |
+                                                   ___^_____________________________ 
+                                                    |                               |Professor|
+         ____________________________________*|alnuno|                               -id: int
+         |                                    -matricula: int                        -nome:string
+         |                                    -nome: string                          -rga:string
+         |                                    -idade:int                             _____________
+         |                                    __________                             +getnome():string
+         |                                    +getmatricula():int                    +getid():int
+         |                                    +setmatricula():void                   +getrga():string
+         |                                    +getnome():string                      ________________
+         |                                    +setnome():void                               *|
+         |                                    +getidade():int                                |*
+         |                                    +getidade():void                       |Disciplina     |
+         |                                    ________________                       |-codigo: int    |
+         *                                                                           |-nome: string   |
+|    Curso  |                                                                        |-cargahoraria: int|       
+|nome:string|                                                                        |-professor: string |
+|cargah: int|                                                                        _____________________
+_____________                                                                       |+getcodigo(): int
++getnome():string|                                                                  |+getnome(): string
++getcargah:int   |1________________________________________________________________*|+getcargahoraria: int
+                                                                                    |+getprofessor: string
