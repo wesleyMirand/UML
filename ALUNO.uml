@@ -31,5 +31,5 @@
 |cargah: int|                                                                        _____________________
 _____________                                                                       |+getcodigo(): int
 +getnome():string|                                                                  |+getnome(): string
-+getcargah:int   |1________________________________________________________________*|+getcargahoraria: int
++getcargah():int |1________________________________________________________________*|+getcargahoraria: int
                                                                                     |+getprofessor: string
